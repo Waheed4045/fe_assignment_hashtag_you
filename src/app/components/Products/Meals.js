@@ -2,7 +2,7 @@
 import React, { Fragment } from "react";
 import AvailableMeals from "./AvailableProducts";
 
-const Meals = () => {
+const Products = () => {
 	return (
 		<Fragment>
 			<AvailableMeals />
@@ -10,4 +10,4 @@ const Meals = () => {
 	);
 };
 
-export default Meals;
+export default Products;
