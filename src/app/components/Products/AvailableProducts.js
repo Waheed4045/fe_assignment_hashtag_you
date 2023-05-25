@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import Card from "../UI/Card";
-import MealItem from "./MealItem/MealItem";
+import MealItem from "./ProductItem/MealItem";
 
 import classes from "./AvailableMeals.module.css";
 
@@ -43,7 +43,7 @@ const AvailableMeals = (props) => {
 		<section className={classes.meals}>
 			<Card>
 				<ul>{mealsList}</ul>
-				<button onClick={loadMoreProducts}>Load More</button>
+				<button className={classes.loadMore} onClick={loadMoreProducts} >Load More</button>
 			</Card>
 		</section>
 	);

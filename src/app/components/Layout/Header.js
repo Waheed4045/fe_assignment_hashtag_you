@@ -7,11 +7,11 @@ const Header = (props) => {
 	return (
 		<>
 			<header className={classes.header} >
-                <h1>React Meals</h1>
+                <h1>Product List</h1>
                <HeaderCartButton onClick ={props.onShowCart}/>
             </header>
 			<div className={classes['main-image']}>
-                <img src ={mealsImage} alt = "A table full of delicious meals" />
+                {/* <img src ={mealsImage} alt = "A table full of delicious meals" /> */}
             </div>
 		</>
 	);
